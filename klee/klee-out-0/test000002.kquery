@@ -1,0 +1,17 @@
+array model_version[4] : w32 -> w8 = symbolic
+array opcode[4] : w32 -> w8 = symbolic
+array opcode_1[4] : w32 -> w8 = symbolic
+(query [(Eq 1
+             (ReadLSB w32 0 model_version))
+         (Eq false
+             (Eq 0
+                 N0:(ReadLSB w32 0 opcode)))
+         (Eq false (Eq 1 N0))
+         (Eq false (Eq 2 N0))
+         (Eq false (Eq 3 N0))
+         (Eq false (Eq 4 N0))
+         (Eq false (Eq 5 N0))
+         (Eq false (Eq 6 N0))
+         (Eq 0
+             (ReadLSB w32 0 opcode_1))]
+        false)

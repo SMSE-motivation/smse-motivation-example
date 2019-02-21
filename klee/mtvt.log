@@ -1,0 +1,17 @@
+KLEE: KLEE: WATCHDOG: watching 28236
+
+KLEE: NOTE: Using POSIX model: /home/smse-paper/tools/klee/install-fabs/lib/klee/runtime/libkleeRuntimePOSIX.bca
+KLEE: NOTE: Using klee-uclibc : /home/smse-paper/tools/klee/install-fabs/lib/klee/runtime/klee-uclibc.bca
+KLEE: output directory is "/home/smse-paper/tests/mtvt_example/./klee-out-0"
+KLEE: Using Z3 solver backend
+KLEE: Using Z3 solver backend
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 51415648) at /home/smse-paper/tools/klee/runtime/POSIX/fd.c:980
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling __klee_posix_wrapped_main with extra arguments.
+KLEE: ctrl-c detected, requesting interpreter to halt.
+KLEE: halting execution, dumping remaining states
+
+KLEE: done: total instructions = 20829
+KLEE: done: completed paths = 4523
+KLEE: done: generated tests = 2

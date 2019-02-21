@@ -1,0 +1,55 @@
+{
+    "creation_time": "2019-02-21 00:32:50.532517",
+    "dynamically_linked": true,
+    "enable_pov_generation": false,
+    "guestfs_path": "/home/smse-paper/s2e/images/debian-9.2.1-x86_64/guestfs",
+    "has_guestfs": true,
+    "image": {
+        "image_group": "linux",
+        "memory": "256M",
+        "name": "Debian x86_64 image",
+        "os": {
+            "arch": "x86_64",
+            "binary_formats": [
+                "elf"
+            ],
+            "build": "",
+            "name": "debian",
+            "version": "9.2.1"
+        },
+        "path": "/home/smse-paper/s2e/images/debian-9.2.1-x86_64/image.raw.s2e",
+        "qemu_build": "x86_64",
+        "qemu_extra_flags": "-net none -net nic,model=e1000 ",
+        "snapshot": "ready",
+        "version": 3
+    },
+    "modelled_functions": [],
+    "modules": [
+        [
+            "s2e_mtvt_example",
+            false
+        ]
+    ],
+    "processes": [
+        "s2e_mtvt_example"
+    ],
+    "project_dir": "/home/smse-paper/s2e/projects/s2e_mtvt_example",
+    "project_type": "linux",
+    "recipes_dir": "/home/smse-paper/s2e/projects/s2e_mtvt_example/recipes",
+    "seeds_dir": "/home/smse-paper/s2e/projects/s2e_mtvt_example/seeds",
+    "sym_args": [],
+    "target_arch": "x86_64",
+    "target_args": [],
+    "target_files": [
+        "/home/smse-paper/tests/mtvt_example/s2e_mtvt_example"
+    ],
+    "target_path": "/home/smse-paper/tests/mtvt_example/s2e_mtvt_example",
+    "use_cupa": true,
+    "use_fault_injection": false,
+    "use_recipes": false,
+    "use_seeds": false,
+    "use_symb_input_file": false,
+    "use_test_case_generator": true,
+    "warn_input_file": true,
+    "warn_seeds": true
+}
